@@ -4,7 +4,8 @@
 	"description": "Creates unique static keys for your React projects",
 	"publisher": "Digital-Octopus",
 	"repository": "https://github.com/Digital-Octopus/vscode-react-key-generator",
-	"version": "1.1.3",
+	"icon": "icon.png",
+	"version": "1.1.4",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
