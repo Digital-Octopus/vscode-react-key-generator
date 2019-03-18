@@ -1,0 +1,47 @@
+{
+	"name": "react-key-generator",
+	"displayName": "react-key-generator",
+	"description": "Creates unique static keys for your React projects",
+	"publisher": "Digital-Octopus",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.insertKey",
+		"onCommand:extension.insertKeyWithAttribute"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.insertKey",
+				"title": "Insert React key"
+			},
+			{
+				"command": "extension.insertKeyWithAttribute",
+				"title": "Insert React key (with attribute)"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.12.21",
+		"eslint": "^5.3.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-react": "^7.12.4",
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"shortid": "^2.2.14"
+
+	}
+}
