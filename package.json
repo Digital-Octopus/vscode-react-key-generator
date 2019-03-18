@@ -4,7 +4,7 @@
 	"description": "Creates unique static keys for your React projects",
 	"publisher": "Digital-Octopus",
 	"repository": "https://github.com/Digital-Octopus/vscode-react-key-generator",
-	"version": "1.1.0",
+	"version": "1.1.2",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
@@ -41,8 +41,9 @@
 		"eslint-plugin-jsx-a11y": "^6.2.1",
 		"eslint-plugin-react": "^7.12.4",
 		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
+		"vscode": "^1.1.28"
+	},
+	"dependencies": {
 		"shortid": "^2.2.14"
-
 	}
 }
